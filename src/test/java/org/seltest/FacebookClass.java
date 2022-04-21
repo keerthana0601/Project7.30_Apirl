@@ -2,7 +2,7 @@ package org.seltest;
 
 import org.openqa.selenium.WebDriver;
 
-public class FacebookClass {
+public class FacebookClass extends BaseClass{
 	
 	public static void main(String[] args) {
 		

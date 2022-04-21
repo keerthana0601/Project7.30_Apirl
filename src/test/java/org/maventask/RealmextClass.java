@@ -11,15 +11,15 @@ public class RealmextClass extends BaseClass {
 			
 			WebDriver driver=chromeBrowser();
 			
-			urlLaunch("https://www.amazon.in/");
+			 urlLaunch("https://www.amazon.in/");
 			
 			implicitWait(20);
 
 			SearchPage s=new SearchPage();
 			
-			sendKeys(s.getSearchTxt(),"realmext");
+			//sendKeys(s.getSearchTxt(),"realmext");
 			
-			click(s.getSearchBtn());
+			//click(s.getSearchBtn());
 			
 			
 	
